@@ -1,0 +1,227 @@
+ body {
+     background: #eee;
+ }
+/*-----------start header---------------*/
+header {
+    background: #eee;
+}
+header:hover {
+    background: #111;
+}
+/*-----------start container-----------*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    width: 900px;
+    margin: auto;
+    background: #ccc;
+}
+.container:hover {
+    background: #444;
+    border-radius: 20px;
+    color: white;
+}
+/*------------start logo----------------*/  
+.logo {
+    width: 30px;
+    border-radius: 50%;
+    transition: all 1s ease;
+}
+.logo:hover {
+    width: 40px;
+    transform: translate(5px);
+    
+}
+/*------------ end logo----------------*/
+/*------------the links-----------------*/
+.links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+}
+.links ul li {
+    padding: 0px 30px ;
+
+}
+.links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.links ul li a:hover{
+    color: white;
+}
+/*------------end links------------------*/
+/*------------start menue----------------*/
+.menue {
+}
+.menue1:hover + .ul-span {
+    visibility: visible;
+
+}
+
+.ul-span{
+    position: relative;
+    right: 10px;
+    z-index: 1;
+    visibility: hidden;
+}
+.menue .span { 
+    position: absolute;
+    top: -4px;
+    border-left: 10px solid #444;
+    border-right: 10px solid #444;
+    border-top: 10px solid #444;
+    border-bottom: 10px solid black;
+    transform: translate(10px);
+    width: 0;
+    z-index: 1;
+}
+.menue ul {
+    position: absolute;
+    left: -70px;
+    background: rgb(41, 40, 40);
+    list-style-type: none;
+    padding:0;
+    padding: 20px;
+    z-index: 1;
+}
+.menue ul li {
+    margin-bottom: 30px;
+}
+.menue ul a { 
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+
+}
+/*------------end menue------------------*/
+/*------------end container--------------*/
+/*------------end header-----------------*/
+/* -----------start section main---------*/
+/* -----------start main-----------------*/
+.img-main {
+    position: relative;
+    width: 1300px;
+    margin: auto;
+}
+.main-elements-img {
+
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 500px;
+}
+/*----------start button--------------*/
+.start {
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+}
+.start button {
+    width: 200px;
+    height: 50px;
+    color: #000;
+    background:#ccc;
+    font-size: x-large;
+    transition: all 1s ease;
+}
+.start button:hover {
+    color: white;
+    background: #444;
+    border-radius: 20px;
+    transform: translate(20px,20px);
+
+}
+/*-----------end button-------------------------*/
+/*-----------start .main-elements--------------*/
+.main-elements {
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   width: 80%;
+   margin: auto;
+   position:absolute;
+   top: 85%;
+   left: 10%;
+
+}
+/*-----------start .main-elements div--------------*/
+.main-elements div {
+    position: relative;
+    width: 250px;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 0px 25px 3px  rgb(129, 127, 127);
+    transition: all 1s ease;
+    z-index: 1;
+}
+.main-elements div:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    background: #444;
+    color: white;
+/*-----------start .main-elements img--------------*/
+}
+.main-elements-img1 {
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+/*-----------start .main-elements button--------------*/
+.main-elements div button {
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    width: 100px;
+    height: 30px;
+    transition: all 1s ease;
+}
+.main-elements div button:hover {
+    transform: translate(-15px, -15px);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #000; 
+}
+/*-----------end  .main-elements--------------*/
+/*-----------start section--------------------*/
+.section {
+    display: block;
+    padding: 500px 0px 0px 0px ;
+    box-shadow: 0px 0px 25px 3px  rgb(129, 127, 127);
+    width: 900px;
+    margin: auto;
+    background: white;
+}
+.section:hover {
+    background: #000;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 50px;
+}
+.section1:hover {
+    background: #444;
+    border-radius: 30px;
+    color: white;
+}
+.section1p {
+    width: 400px;
+}
+
+
+
+
